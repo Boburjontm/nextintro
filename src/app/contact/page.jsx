@@ -11,7 +11,6 @@ const page = () => {
       <ContactHerotwo/>
       <Features/>
       <Footer/>
-      {/* ismoil */}
     </div>
   )
 }
