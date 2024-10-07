@@ -2,6 +2,14 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Comp from "../img/comp.svg" 
+import Note from "../img/note.svg" 
+import Work from "../img/worktime.svg" 
+import Notetwo from "../img/noteandpen.svg" 
+import Read from "../img/read.svg" 
+import Handmade from "../img/compandnote.svg" 
+import Flower from "../img/flower.svg" 
+import Coffe from "../img/coffe.svg"
 
 const blogPosts = [
   {
@@ -11,7 +19,7 @@ const blogPosts = [
     category: 'Design',
     author: 'Author 1',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-    image: '/images/image1.jpg',
+    image:Comp ,
   },
   {
     id: 2,
@@ -20,7 +28,7 @@ const blogPosts = [
     category: 'Decor',
     author: 'Author 2',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-    image: '/images/image2.jpg',
+    image: Note,
   },
   {
     id: 3,
@@ -29,7 +37,7 @@ const blogPosts = [
     category: 'Handmade',
     author: 'Author 3',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-    image: '/images/image3.jpg',
+    image: Work,
   },
   // Add more posts as needed
 ];
