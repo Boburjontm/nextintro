@@ -5,7 +5,7 @@ export default function BlogHeroone() {
       <div className="relative h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://www.shutterstock.com/image-photo/abstract-painting-on-grey-wall-260nw-1342056737.jpg')" }}>
         <div className="absolute inset-0 bg-black bg-opacity-25"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-4xl font-bold">Contact</h1>
+          <h1 className="text-4xl font-bold">Blog</h1>
           <p className="mt-2">
             <a href="#" className="hover:underline">Home</a> &gt; Blog
           </p>
